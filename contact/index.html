@@ -97,41 +97,41 @@
 <form id="contact-form" name="contact-form" netlify netlify-honeypot="fax">
   <div class="fieldset-split">
     <div class="form-field">
-      <label for="name">Name:</label><br />
-      <input id="name" name="name" type="text" maxlength="100" required />
+      <label for="name">Name</label><br />
+      <input id="name" name="name" type="text" maxlength="100" required autofocus />
     </div>
     <div class="form-field">
-      <label for="email">Email:</label><br />
+      <label for="email">Email</label><br />
       <input id="email" name="email" type="email" maxlength="254" required />
     </div>
   </div>
   <div class="fieldset-split">
     <div class="form-field">
-      <label for="phone">Phone:</label><br />
+      <label for="phone">Phone</label><br />
       <input id="phone" name="phone" pattern="^[0-9\-\+\.\s\(\)]*$" title="Enter a valid phone number or leave blank"  type="tel" maxlength="24" placeholder="(Optional)" />
     </div>
     <div class="form-field">
-      <label for="source">How did you find me?:</label><br />
+      <label for="source">How did you find me?</label><br />
       <select id="source" name="source">
         <option value="">-- Select (Optional) --</option>
-        <option value="word-of-mouth">Word of Mouth</option>
-        <option value="card">Business Card</option>
-        <option value="search">Web Search</option>
-        <option value="instagram">Instagram</option>
-        <option value="other">Other</option>
+        <option>Word of Mouth</option>
+        <option>Business Card</option>
+        <option>Web Search</option>
+        <option>Instagram</option>
+        <option>Other</option>
       </select>
     </div>
   </div>
   <div class="form-field form-field--sticky">
-    <label for="fax">Fax number:</label><br />
+    <label for="fax">Fax Number</label><br />
     <input id="fax" name="fax" type="tel" maxlength="24" tabindex="-1" autocomplete="off"/>
   </div>
   <div class="form-field">
-    <label for="subject">Subject:</label><br />
+    <label for="subject">Subject</label><br />
     <input id="subject" name="subject" type="text" maxlength="256" required />
   </div>
   <div class="form-field">
-    <label for="message">Message:</label><br />
+    <label for="message">Message</label><br />
     <textarea id="message" name="message" rows="6" maxlength="5000" required></textarea>
   </div>
   <div class="form-field">
